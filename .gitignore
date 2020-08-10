@@ -1,3 +1,9 @@
+# Visual studio autogenerate folders
+.vs/*
+Debug/*
+x64/*
+*.vcxproj.user
+
 # Prerequisites
 *.d
 
