@@ -148,13 +148,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Snake.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Snake.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Utilisateurs\Guillaume\Pictures\sprites\PlayButton.png" />
+    <Image Include="..\..\..\..\Utilisateurs\Guillaume\Pictures\sprites\PlayButtonHighlight.png" />
+    <Image Include="..\..\..\..\Utilisateurs\Guillaume\Pictures\sprites\QuitButton.png" />
+    <Image Include="..\..\..\..\Utilisateurs\Guillaume\Pictures\sprites\QuitButtonHighlight.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
